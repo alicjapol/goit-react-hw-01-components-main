@@ -1,0 +1,59 @@
+/* FriendListItem.module.css */
+
+.item {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+    align-items: center;
+    gap: 20px;
+    background: var(--white, rgb(215, 196, 196, 0.5));
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+.isOnline {
+    visibility: visible;
+}
+
+  .online {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    background-color: green;
+  }
+  
+  .offline {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    background-color: red;
+  }
+  
+  /* Dodano efekt hover dla elementu */
+  .item:hover {
+    background-color: #f0f0f0;
+  }
+  
